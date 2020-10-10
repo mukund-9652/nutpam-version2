@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head></head>
+<!--- basic page needs
+    ================================================== -->
+<meta charset="utf-8">
+<title>Nutpam 2.0</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- mobile specific metas
+    ================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- CSS
+    ================================================== -->
+<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">    
+  
+<link rel="stylesheet" href="css/vendor.css">
+
+
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<!-- script
+    ================================================== -->
+
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style data-tippy-stylesheet="">
+      .tippy-box[data-animation=fade][data-state=hidden]{opacity:0}[data-tippy-root]{max-width:calc(100vw - 10px)}
+      .tippy-box{position:relative;background-color:#333;color:#fff;border-radius:4px;font-size:14px;line-height:1.4;outline:0;transition-property:transform,visibility,opacity}
+      .tippy-box[data-placement^=top]>.tippy-arrow{bottom:0}.tippy-box[data-placement^=top]>.tippy-arrow:before{bottom:-7px;left:0;border-width:8px 8px 0;border-top-color:initial;transform-origin:center top}
+      .tippy-box[data-placement^=bottom]>.tippy-arrow{top:0}.tippy-box[data-placement^=bottom]>.tippy-arrow:before{top:-7px;left:0;border-width:0 8px 8px;border-bottom-color:initial;transform-origin:center bottom}
+      .tippy-box[data-placement^=left]>.tippy-arrow{right:0}.tippy-box[data-placement^=left]>.tippy-arrow:before{border-width:8px 0 8px 8px;border-left-color:initial;right:-7px;transform-origin:center left}
+      .tippy-box[data-placement^=right]>.tippy-arrow{left:0}.tippy-box[data-placement^=right]>.tippy-arrow:before{left:-7px;border-width:8px 8px 8px 0;border-right-color:initial;transform-origin:center right}
+      .tippy-box[data-inertia][data-state=visible]{transition-timing-function:cubic-bezier(.54,1.5,.38,1.11)}.tippy-arrow{width:16px;height:16px;color:#333}.tippy-arrow:before{content:"";position:absolute;border-color:transparent;border-style:solid}
+      .tippy-content{position:relative;padding:5px 9px;z-index:1}
+    </style>
+
+   
+<!-- favicons
+    ================================================== -->
+
+<link rel="icon" type="image/png" sizes="32x32" href="nutpam.png">
+<!-- <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"> -->
+<!-- <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"> -->
+
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+<script src="js/modernizr.js"></script>
+<script defer src="js/fontawesome/all.min.js"></script>
+<link rel="manifest" href="site.webmanifest">
+
+
+</head>
+
+<body id="top" class="" style="">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="s-header__logo">
+            <a href="index.html">
+                <img src="images/nutpam logo.png" alt="Homepage">
+            </a>
+        </div>
+
+        <div class="s-header__content">
+
+            <nav class="s-header__nav-wrap">
+                <ul class="s-header__nav">
+                    <li><a class="smoothscroll" href="#hero" title="Home">Home</a></li>
+                    <li><a class="smoothscroll" href="#about" title="About">About</a></li>
+                    <li><a class="smoothscroll" href="#portfolio" title="Events">Events</a></li>
+                    <li><a class="smoothscroll" href="#faq" title="F.A.Q">F.A.Q</a></li>
+                </ul>
+            </nav> <!-- end s-header__nav-wrap -->
+
+            <a href="#contact" class="btn btn--primary btn--small smoothscroll">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z" />
+                </svg>
+                Contact
+            </a>
+
+        </div> <!-- end header-content -->
+
+        <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- <div id="bg"></div> -->
+    <!-- hero
+    ================================================== -->
+    <section id="hero" class="s-hero target-section">
+    
+
+    <!-- Particales bg -->
+    <div id="particles-js"></div>
+    <!-- <div class="s-hero__bg">
+        <div class="gradient-overlay"></div>
+    </div> -->
+
+        <div class="row s-hero__content">
+            <div class="column">
+
+                <!-- <h1>Nutpam</h1>
+                <h1>2k20</h1> -->
+                <span id="type-text" class="typo"> </span>
+                <span class="blinking-cursor typo">&#160_</span>
+
+                <span id="type-text"></span>
+                <span class="blinking-cursor"></span>
+                <div class="s-hero__content-about">
+
+                    <p class='date'>
+                        October 29, 2020
+                    </p>
+
+                    <!-- <footer>
+                        <div class="s-hero__content-social">
+                            <a href="https://www.facebook.com/nutpam.sit.1" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/Nutpam20?s=08" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/nutpam2020/?igshid=1r81aheeb3em0" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFvqta4Ude3RAAAAXUJliA431jvmdEgj1yQFpoVrVLrACzzRdP4K0_m_V6Vx61Tx3jt34QMrukMNS2t6j7ajDakLn6AOr2OWknEcZNnpc69Ew74KFIGU2xf14AdMreELkWnuWA=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fnutpam-cse-64b9711b7" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        </div>
+                    </footer> -->
+                </div>
+                <div>
+                    <div id="timer">
+                        <span id="days"></span> Days
+                        <span id="hours"></span> Hours
+                        <span id="minutes"></span> Minutes
+                        <span id="seconds"></span> Seconds
+                    </div>
+                </div>
+                <footer>
+                    <div class="s-hero__content-social">
+                        <a href="https://www.facebook.com/nutpam.sit.1" target="_blank"><i class="fab fa-facebook-f"
+                                aria-hidden="true"></i></a>
+                        <a href="https://twitter.com/Nutpam20?s=08" target="_blank"><i class="fab fa-twitter"
+                                aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/nutpam2020/?igshid=1r81aheeb3em0" target="_blank"><i
+                                class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFvqta4Ude3RAAAAXUJliA431jvmdEgj1yQFpoVrVLrACzzRdP4K0_m_V6Vx61Tx3jt34QMrukMNS2t6j7ajDakLn6AOr2OWknEcZNnpc69Ew74KFIGU2xf14AdMreELkWnuWA=&originalReferer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fnutpam-cse-64b9711b7"
+                            target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+
+        <div class="s-hero__video">
+            <a class="s-hero__video-link" src="images\Nutpam Tech Events.mp4" data-lity="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M21 12l-18 12v-24z" /></svg>
+                <span class="s-hero__video-text">Play Video</span>
+            </a>
+        </div>
+
+        <div class="s-hero__scroll">
+            <a href="#about" class="s-hero__scroll-link smoothscroll">
+                Scroll Down
+            </a>
+        </div>
+
+    </section> <!-- end s-hero -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about">
+
+        <div class="horizontal-line"></div>
+
+        <div class="row">
+            <div class="column large-12">
+
+                <div class="section-title" data-num="01" data-aos="fade-up">
+                    <h3 class="h6">Institution</h3>
+                </div>
+
+            </div>
+
+            <div class="column large-6 w-900-stack s-about__intro-text">
+                <!-- <h1 class="display-1" data-aos="fade-up">
+                    Flare is a branding agency based in somewhere. We design thoughtful digital experiences and beautiful brand aesthetics.
+                </h1> -->
+
+                <p class="lead" data-aos="fade-up">
+                  SRI SAI RAM INSTITUTE OF TECHNOLOGY, one of the premier Autonomous institutions in TN is approved by AICTE,GoI.To add to its pride, the institution is recertified as 
+                  ISO 9001:2015 Certified institution as well, the institution has been accredited with “A+” grade with the CGPA of 3.30 by the Executive Committee of NAAC. Besides, five departments(CSE, MECH, IT, EEE, ECE)have been accredited for 3 years by NBA. The institution has also reached 192th position amongst the Top 200 Engineering Institutions all over India in
+                  NIRF work by the MHRD, GoI. In addition, the college 
+                  has ranked for 3rd in SWACHH CAMPUS RANKING 2018, conducted by MHRD,GoI all over India.The college has awarded as a best performing MHRD-(IIC) in the year 2018-2019 by MHRD Innovation Cell for achievements in Entrepreneurship activities done by the Institute.It has been consistently ranked among the top 15 engineering institutions under Anna University.
+                </p>
+            </div>
+
+            <div class="column large-6 w-900-stack s-about__photo-block">
+                <div class="s-about__photo" data-aos="fade-up"></div>
+            </div>
+        </div>
+
+        <!-- block 1 -->
+        <!-- <div class="row block-large-1-2 block-tab-full s-about__process item-list">
+            <div class="column item item-process" data-aos="fade-up">
+                <h3 class="item-title">Define</h3>
+                <p>
+                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-process" data-aos="fade-up">
+                <h3 class="item-title">Design</h3>
+                <p>
+                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-process" data-aos="fade-up">
+                <h3 class="item-title">Build</h3>
+                <p>
+                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-process" data-aos="fade-up">
+                <h3 class="item-title">Launch</h3>
+                <p>
+                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+        </div> -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services">
+
+        <div class="row">
+            <div class="column large-12">
+                <div class="section-title" data-num="02" data-aos="fade-up">
+                    <h3 class="h6">Department</h3>
+                </div>
+            </div>
+            <div class="column large-6 w-900-stack">
+                <img src="images/Illustration.png" alt="">
+            </div>
+            <div class="column large-6 w-900-stack" style="color:white">
+                <p class="lead" data-aos="fade-up">
+                  The Department of CSE is accredited by NBA,AICTE and has acquired Autonomous status under Anna University, Chennai.Every year Department produces at least 10 rank holders and has Centre of Excellences for Red Hat, Cisco, Oracle, Salesforce, VMWare & Data Science and Big Data Analytics.The students of CSE were placed in top MNC companies like TCS,WIPRO,CTS,ZOHO,Amazon and so on.The Department has signed MoU's with ICTACT, Red Hat Academy, Cisco Academy, Oracle Academy, SANDS India Pvt. Ltd., EPR Labs, IBM Rational Seed, Network Bulls Pvt.Ltd., and CSN Systems. Our students are active members of CSI,ISTE, SIESRP and IEI.
+                </p>
+            </div>
+        </div>
+
+        <!-- block 2 commented -->
+
+        <!-- <div class="row block-large-1-2 block-tab-full s-services__services item-list">
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--product-design"></span>
+                <h3 class="item-title">Product Design</h3>
+                <p>
+                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--branding"></span>
+                <h3 class="item-title">Branding</h3>
+                <p>
+                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--frontend"></span>
+                <h3 class="item-title">Frontend Development</h3>
+                <p>
+                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--research"></span>
+                <h3 class="item-title">UX Research</h3>
+                <p>
+                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--illustration"></span>
+                <h3 class="item-title">Illustration</h3>
+                <p>
+                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--ecommerce"></span>
+                <h3 class="item-title">E-Commerce</h3>
+                <p>
+                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+        </div> -->
+
+    </section> <!-- end s-services -->
+
+    <div class="section industry-section" style="padding:0 ; background-color:#14171b">
+      <div class="container" >
+       
+        <h1 class="section-title industry-title" style="width:fit-content;">
+          EVENTS
+        </h1>
+        <h4 style=" color: white;">Click Icons For More Details</h4>
+        <p class="typewrite" data-period="2000" style="font-family: 'Playfair Display', serif; color: white; font-size: 2em;"
+                data-type='[ "Click Icons For More Details"]' >
+                  <span class="wrap"></span>
+                </p>
+      </div>
+      <div class="slider">
+        
+        <div class="slide-track">
+          
+          <div class="slide">
+            <div class="up">
+              <img class="slider-image industry-modal-trigger top-left" industry-id="industry-technowar" src="images/portfolio/gallery/code-typing.png" industry-title="technowar" data-tippy-placement="top">
+            </div>
+            <div class="down bottom-left">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-technovation" src="images/portfolio/gallery/programming.png" industry-title="technovation" data-tippy-placement="bottom">
+            </div>
+            <div class="up">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-BoD" src="images/portfolio/gallery/design-tools.png" industry-title="BoD" data-tippy-placement="top">
+            </div>
+          </div>
+          
+          <div class="slide">
+            <div class="down">
+              <img class="slider-image industry-modal-trigger top-left" industry-id="industry-infinites" src="images/portfolio/gallery/programming.png" industry-title="infinites" data-tippy-placement="top">
+            </div>
+            <div class="up bottom-left">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-scholar" src="images/portfolio/gallery/Presentation.png" industry-title="scholar" data-tippy-placement="bottom">
+            </div>
+            <div class="down">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-photo" src="images/portfolio/gallery/Photography.png" industry-title="photo" data-tippy-placement="top">
+            </div>
+          </div>
+          
+          <div class="slide">
+            <div class="up">
+              <img class="slider-image industry-modal-trigger top-left" industry-id="industry-game" src="images/portfolio/gallery/Gaming.png" industry-title="game" data-tippy-placement="top">
+            </div>
+            <div class="down bottom-left">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-connectTech" src="images/portfolio/gallery/last1.png" industry-title="connectTech" data-tippy-placement="bottom">
+            </div>
+            <div class="down">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-BoD" src="images/portfolio/gallery/design-tools.png" industry-title="BoD" data-tippy-placement="top">
+
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="slide-track">
+          
+          <div class="slide">
+            <div class="up">
+              <img class="slider-image industry-modal-trigger top-left" industry-id="industry-technowar" src="images/portfolio/gallery/code-typing.png" industry-title="technowar" data-tippy-placement="top">
+            </div>
+            <div class="down bottom-left">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-technovation" src="images/portfolio/gallery/programming.png" industry-title="technovation" data-tippy-placement="bottom">
+            </div>
+            <div class="up">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-BoD" src="images/portfolio/gallery/design-tools.png" industry-title="BoD" data-tippy-placement="top">
+            </div>
+          </div>
+          
+          <div class="slide">
+            <div class="down">
+              <img class="slider-image industry-modal-trigger top-left" industry-id="industry-infinites" src="images/portfolio/gallery/programming.png" industry-title="infinites" data-tippy-placement="top">
+            </div>
+            <div class="up bottom-left">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-scholar" src="images/portfolio/gallery/Presentation.png" industry-title="scholar" data-tippy-placement="bottom">
+            </div>
+            <div class="down">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-photo" src="images/portfolio/gallery/Photography.png" industry-title="photo" data-tippy-placement="top">
+            </div>
+          </div>
+          
+          <div class="slide">
+            <div class="up">
+              <img class="slider-image industry-modal-trigger top-left" industry-id="industry-game" src="images/portfolio/gallery/Gaming.png" industry-title="game" data-tippy-placement="top">
+            </div>
+            <div class="down bottom-left">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-connectTech" src="images/portfolio/gallery/last1.png" industry-title="connectTech" data-tippy-placement="bottom">
+            </div>
+            <div class="down">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-BoD" src="images/portfolio/gallery/design-tools.png" industry-title="BoD" data-tippy-placement="top">
+
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="slide-track">
+          
+          <div class="slide">
+            <div class="up">
+              <img class="slider-image industry-modal-trigger top-left" industry-id="industry-technowar" src="images/portfolio/gallery/code-typing.png" industry-title="technowar" data-tippy-placement="top">
+            </div>
+            <div class="down bottom-left">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-technovation" src="images/portfolio/gallery/programming.png" industry-title="technovation" data-tippy-placement="bottom">
+            </div>
+            <div class="up">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-BoD" src="images/portfolio/gallery/design-tools.png" industry-title="BoD" data-tippy-placement="top">
+            </div>
+          </div>
+          
+          <div class="slide">
+            <div class="down">
+              <img class="slider-image industry-modal-trigger top-left" industry-id="industry-infinites" src="images/portfolio/gallery/programming.png" industry-title="infinites" data-tippy-placement="top">
+            </div>
+            <div class="up bottom-left">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-scholar" src="images/portfolio/gallery/Presentation.png" industry-title="scholar" data-tippy-placement="bottom">
+            </div>
+            <div class="down">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-photo" src="images/portfolio/gallery/Photography.png" industry-title="photo" data-tippy-placement="top">
+            </div>
+          </div>
+          
+          <div class="slide">
+            <div class="up">
+              <img class="slider-image industry-modal-trigger top-left" industry-id="industry-game" src="images/portfolio/gallery/Gaming.png" industry-title="game" data-tippy-placement="top">
+            </div>
+            <div class="down bottom-left">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-connectTech" src="images/portfolio/gallery/last1.png" industry-title="connectTech" data-tippy-placement="bottom">
+            </div>
+            
+            <div class="down">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-BoD" src="images/portfolio/gallery/design-tools.png" industry-title="BoD" data-tippy-placement="top">
+
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="slide-track">
+          
+          <div class="slide">
+            <div class="up">
+              <img class="slider-image industry-modal-trigger top-left" industry-id="industry-technowar" src="images/portfolio/gallery/code-typing.png" industry-title="technowar" data-tippy-placement="top">
+            </div>
+            <div class="down bottom-left">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-technovation" src="images/portfolio/gallery/programming.png" industry-title="technovation" data-tippy-placement="bottom">
+            </div>
+            <div class="up">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-BoD" src="images/portfolio/gallery/design-tools.png" industry-title="BoD" data-tippy-placement="top" >
+            </div>
+          </div>
+          
+          <div class="slide">
+            <div class="down">
+              <img class="slider-image industry-modal-trigger top-left" industry-id="industry-infinites" src="images/portfolio/gallery/programming.png" industry-title="infinites" data-tippy-placement="top">
+            </div>
+            <div class="up bottom-left">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-scholar" src="images/portfolio/gallery/Presentation.png" industry-title="scholar" data-tippy-placement="bottom">
+            </div>
+            <div class="down">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-photo" src="images/portfolio/gallery/Photography.png" industry-title="photo" data-tippy-placement="top">
+            </div>
+          </div>
+          
+          <div class="slide">
+            <div class="up">
+              <img class="slider-image industry-modal-trigger top-left" industry-id="industry-game" src="images/portfolio/gallery/Gaming.png" industry-title="game" data-tippy-placement="top">
+            </div>
+            <div class="down bottom-left">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-connectTech" src="images/portfolio/gallery/last1.png" industry-title="connectTech" data-tippy-placement="bottom">
+            </div>
+            
+            <div class="down">
+              <img class="slider-image industry-modal-trigger" industry-id="industry-BoD" src="images/portfolio/gallery/design-tools.png" industry-title="BoD" data-tippy-placement="top">
+
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+      <div class="modal fade" id="industry-modal" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">EVENTS</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body industry-modal-body">
+            <div class="row align-items-stretch">
+              <div class="col-lg-3 col-md-12 modal-col">
+                <div class="nav nav-pills industry-modal-nav" role="tablist" aria-orientation="vertical">
+                  
+                  <a class="nav-link industry-modal-nav-link" id="industry-technowar-tab" data-toggle="pill" href="#industry-technowar" role="tab" aria-controls="industry-technowar" aria-selected="true">
+                    TechWar
+                  </a>
+                  
+                  <a class="nav-link industry-modal-nav-link" id="industry-technovation-tab" data-toggle="pill" href="#industry-technovation" role="tab" aria-controls="industry-technovation" aria-selected="true">
+                    Technovation
+                  </a>
+                  
+                  <a class="nav-link industry-modal-nav-link" id="industry-BoD-tab" data-toggle="pill" href="#industry-BoD" role="tab" aria-controls="industry-BoD" aria-selected="true">
+                    Battle Of Designs
+                  </a>
+                  
+                  <a class="nav-link industry-modal-nav-link" id="industry-infinites-tab" data-toggle="pill" href="#industry-infinites" role="tab" aria-controls="industry-infinites" aria-selected="true">
+                    Grab The Infinites
+                  </a>
+                  
+                  <a class="nav-link industry-modal-nav-link" id="industry-scholar-tab" data-toggle="pill" href="#industry-scholar" role="tab" aria-controls="industry-scholar" aria-selected="true">
+                    Scholar's Tale
+                  </a>
+                  
+                  <a class="nav-link industry-modal-nav-link" id="industry-photo-tab" data-toggle="pill" href="#industry-photo" role="tab" aria-controls="industry-photo" aria-selected="true">
+                    Photography
+                  </a>
+                  
+                  <a class="nav-link industry-modal-nav-link" id="industry-game-tab" data-toggle="pill" href="#industry-game" role="tab" aria-controls="industry-game" aria-selected="true">
+                    Gaming Contest
+                  </a>
+                  
+                  <a class="nav-link industry-modal-nav-link" id="industry-connectTech-tab" data-toggle="pill" href="#industry-connectTech" role="tab" aria-controls="industry-connectTech" aria-selected="true">
+                    Connec"T"ech
+                  </a>
+                 
+                </div>
+              </div>
+              <div class="col-lg-9 col-md-12 modal-col">
+                <div class="tab-content" id="industry-tab-content">
+                  
+      <div class="tab-pane fade industry-modal-content" id="industry-technowar" role="tabpanel" aria-labelledby="industry-technowar-tab">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-12 text-center py-3 bg-gradient">
+          <img class="industry-modal-content-img" src="images/portfolio/gallery/code-typing.png" alt="technowar">
+        </div>
+        <div class="col py-3">
+          <div class="industry-modal-content-text">
+            <p class="industry-description">
+              
+          </p><h2>TechWar</h2>
+          <h6>Description:</h6>
+          <ul>
+            <li>The participants will be given a question with 3/4 th of the code (python preferably).</li>
+            <li>The participant has to read and understand the code and then solve it to get the workable solution.</li>
+            <li>Individual participation.</li>
+          </ul>
+            <a class="btn btn-hover splash-btn regis-btn" href="https://forms.gle/7bDVv9fq3S6KXJH2A" target="_blank">
+              Register
+            </a>
+            <p></p></div>
+        </div>
+      </div>
+      
+<!--       
+      <div class="row">
+        <h5 class="mx-3">Current Sponsors:</h5>
+        <div class="industry-modal-content-sponsors">
+          
+          <a href="http://hpe.com/" target="_blank"><img class="industry-modal-sponsor-img" src="./Home - TAMU Datathon_files/hpe_logo.png" alt="Hewlett Packard Enterprise"></a>
+          
+          <a href="https://www.mathworks.com/" target="_blank"><img class="industry-modal-sponsor-img" src="./Home - TAMU Datathon_files/mathworks_logo.png" alt="Mathworks"></a>
+          
+          <a href="https://www.dell.com/en-us" target="_blank"><img class="industry-modal-sponsor-img" src="./Home - TAMU Datathon_files/dell_logo.png" alt="Dell"></a>
+          
+          <a href="https://www.tableau.com/" target="_blank"><img class="industry-modal-sponsor-img" src="./Home - TAMU Datathon_files/tableau_logo.png" alt="Tableau"></a>
+          
+        </div>
+      </div> -->
+      
+    </div>
+                  
+      <div class="tab-pane fade industry-modal-content" id="industry-technovation" role="tabpanel" aria-labelledby="industry-technovation-tab">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-12 text-center py-3 bg-gradient">
+          <img class="industry-modal-content-img" src="images/portfolio/gallery/programming.png" alt="technovation">
+        </div>
+        
+        <div class="col py-3">
+          <div class="industry-modal-content-text">
+            <p class="industry-description">
+          </p><h2>Technovation</h2>
+          <h6>Description:</h6>
+          <ul>
+            <li>The participants will be given problem statements from StudyMonk. </li>
+            <li>The participants must solve the problem within the given time. </li>
+            <li>Minimum 2 and maximum 3 persons are allowed</li>
+          </ul>
+          <a class="btn btn-hover splash-btn regis-btn" href="https://forms.gle/SPBEmewp8iEVsYtt6" target="_blank">
+            Register
+          </a>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    
+      
+      <!-- <div class="row">
+        <h5 class="mx-3">Current Sponsors:</h5>
+        <div class="industry-modal-content-sponsors">
+          
+          <a href="https://www.chevron.com/" target="_blank"><img class="industry-modal-sponsor-img" src="./Home - TAMU Datathon_files/chevron_logo.png" alt="Chevron"></a>
+          
+          <a href="https://www.bp.com/" target="_blank"><img class="industry-modal-sponsor-img" src="./Home - TAMU Datathon_files/bp_logo.png" alt="BP"></a>
+          
+        </div>
+      </div> -->
+      
+    </div>
+                  
+      <div class="tab-pane fade industry-modal-content" id="industry-BoD" role="tabpanel" aria-labelledby="industry-BoD-tab">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-12 text-center py-3 bg-gradient">
+          <img class="industry-modal-content-img" src="https://image.flaticon.com/icons/png/512/1804/1804352.png" alt="BoD">
+        </div>
+        <div class="col py-3">
+          <div class="industry-modal-content-text">
+            <p class="industry-description">
+              
+          </p><h2>Battle Of Design</h2>
+          <h6>Description:</h6>
+          <ul>
+            <li>Exclusive event for designers and meme creators.</li>
+            <li>The participants will be  given a page with a name of any app eg. Home page, login page. </li>
+            <li>The participant has to design a template with their own design in any photo editing software.</li>
+            <li>Individual participation.</li>
+          </ul>
+          <a class="btn btn-hover splash-btn regis-btn" href="https://forms.gle/zDdGuv3tJ1Y5gtXe8" target="_blank">
+            Register
+          </a>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- <div class="row">
+        <h5 class="mx-3">Current Sponsors:</h5>
+        <div class="industry-modal-content-sponsors">
+          
+          <a href="https://www.credera.com/" target="_blank"><img class="industry-modal-sponsor-img" src="./Home - TAMU Datathon_files/credera_logo.png" alt="Credera"></a>
+          
+          <a href="https://www.sparxeng.com/" target="_blank"><img class="industry-modal-sponsor-img" src="./Home - TAMU Datathon_files/sparx_logo.png" alt="Sparx"></a>
+          
+        </div>
+      </div> -->
+      
+    </div>
+                  
+      <div class="tab-pane fade industry-modal-content" id="industry-infinites" role="tabpanel" aria-labelledby="industry-infinites-tab">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-12 text-center py-3 bg-gradient">
+          <img class="industry-modal-content-img" src="images/portfolio/gallery/programming.png" alt="infinites">
+        </div>
+        <div class="col py-3">
+          <div class="industry-modal-content-text">
+            <p class="industry-description">
+              
+        </p><h2>Grab The Infinities</h2>
+        <h6>Description:</h6>
+        <ul>
+            <li>This technical event consists of 6 different programs and where each of the programs are interlinked to each other.</li>
+            <li>Initially the coder starts with a problem and if solves a problem then he will get a string output along with the next program he/she has to solve.</li>
+            <li>The clue or the solutions from the initial program is given as a test/custom input by the user to next program to get the next clue and next program he has to solve.<br> So, this process continues until he solves the final program (6th one) and got the very last result revealed to the moderators. </li>
+            <li>The fastest hand wins the game.</li>
+            <li>All the coders must have "HackerRank "account and all the languages in HackerRank are allowed.</li>
+            <li>Individual participation. </li>
+        </ul>
+        <a class="btn btn-hover splash-btn regis-btn" href="https://forms.gle/3NmQXPEpVW6CjZUk7" target="_blank">
+          Register
+        </a>
+          </div>
+        </div>
+      </div>
+    
+      
+      <!-- <div class="row">
+        <h5 class="mx-3">Current Sponsors:</h5>
+        <div class="industry-modal-content-sponsors">
+          
+          <a href="https://www.capitalone.com/" target="_blank"><img class="industry-modal-sponsor-img" src="./Home - TAMU Datathon_files/capital_one_logo.png" alt="Capital One"></a>
+          
+          <a href="https://www.americanexpress.com/" target="_blank"><img class="industry-modal-sponsor-img" src="./Home - TAMU Datathon_files/american_express_logo.png" alt="American Express"></a>
+          
+        </div>
+      </div> -->
+      
+    </div>
+                  
+      <div class="tab-pane fade industry-modal-content" id="industry-scholar" role="tabpanel" aria-labelledby="industry-scholar-tab">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-12 text-center py-3 bg-gradient">
+          <img class="industry-modal-content-img" src="images/portfolio/gallery/Presentation.png" alt="scholar">
+        </div>
+        <div class="col py-3">
+          <div class="industry-modal-content-text">
+            <p class="industry-description">
+              
+        </p><h2>Scholar's Tale</h2>
+        <h6>Description:</h6>
+        <ul>
+            <li>The participants have to present their projects </li>
+            <li>Topics not restricted</li>
+            <li>Maximum 2 persons are allowed</li>
+        </ul>
+        <a class="btn btn-hover splash-btn regis-btn" href="https://forms.gle/bs9fBTZ7rE1ZCG3g7" target="_blank">
+          Register
+        </a>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- <div class="row">
+        <h5 class="mx-3">Current Sponsors:</h5>
+        <div class="industry-modal-content-sponsors">
+          
+          <a href="http://tti.tamu.edu/" target="_blank"><img class="industry-modal-sponsor-img" src="./Home - TAMU Datathon_files/tti_logo.png" alt="Texas A&amp;M scholar Institute"></a>
+          
+          <a href="https://www.gm.com/" target="_blank"><img class="industry-modal-sponsor-img" src="./Home - TAMU Datathon_files/gm_logo.png" alt="General Motors"></a>
+          
+        </div>
+      </div> -->
+      
+    </div>
+                  
+    <div class="tab-pane fade industry-modal-content" id="industry-photo" role="tabpanel" aria-labelledby="industry-photo-tab">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-12 text-center py-3 bg-gradient">
+          <img class="industry-modal-content-img" src="images/portfolio/gallery/Photography.png" alt="photo">
+        </div>
+        <div class="col py-3">
+          <div class="industry-modal-content-text">
+            <p class="industry-description">
+              
+        </p><h2>Photography</h2>
+        <h4>Description:</h4>
+        <ul>
+            <li><h5 style="color: blueviolet;">Topic :- </h5> <h6 style="background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);-webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;">FREEZING THE NATURE & CLIMATE</h6></li>
+            <li>Taking an image, freezing the moment reveals how rich reality is.</li>
+            <li>Take a good picture. Send us your picture, we will post it on our Instagram page and the ones with maximum likes will be awarded as winners and as runners.</li>
+            <li>Individual participation.</li>
+        </ul>
+        <a class="btn btn-hover splash-btn regis-btn" href="https://forms.gle/9tF3LeyhXzfAFpev5" target="_blank">
+          Register
+        </a>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row">
+        <h5 class="mx-3">Current Sponsors:</h5>
+        <div class="industry-modal-content-sponsors">
+          
+          <a href="http://tamids.tamu.edu/" target="_blank"><img class="industry-modal-sponsor-img" src="./Home - TAMU Datathon_files/tamids_logo.png" alt="Texas A&amp;M Institute of Data Science"></a>
+          
+        </div>
+      </div> -->
+      
+    </div>
+                  
+      <div class="tab-pane fade industry-modal-content" id="industry-game" role="tabpanel" aria-labelledby="industry-game-tab">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-12 text-center py-3 bg-gradient">
+          <img class="industry-modal-content-img" src="images/portfolio/gallery/Gaming.png" alt="game">
+        </div>
+        <div class="col py-3">
+          <div class="industry-modal-content-text">
+            <p class="industry-description">
+              
+        </p><h2>Online Gaming</h2>
+        <h6>Description:</h6>
+        <ul>
+            <li>Multiplayer battle of 3vs3 or battle of 6 vs 6(based on the count we will decide the battle on the spot)</li>
+            <li>The Team with Highest kill count qualifies for the Next Round. Show your Mobile Gaming Skills and Win the Tournament!!</li>
+        </ul>
+        <a class="btn btn-hover splash-btn regis-btn" href="https://forms.gle/oMSTfc5Mko7URS2c8" target="_blank">
+          Register
+        </a>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+                  
+                  <div class="tab-pane fade industry-modal-content" id="industry-connectTech" role="tabpanel" aria-labelledby="industry-connectTech-tab">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-12 text-center py-3 bg-gradient">
+          <img class="industry-modal-content-img" src="images/portfolio/gallery/last1.png" alt="connectTech">
+        </div>
+        <div class="col py-3">
+          <div class="industry-modal-content-text">
+            <p class="industry-description">
+              
+            </p><h2>CONNEC"<b>T</b>"ECH</h2>
+            <h6>Description:</h6>
+            <ul>
+                <li>Connection game is a type of abstract strategy game in which the set of pictures will be projected to the players.</li>
+                <li>Players attempt to complete the specific type of connection with the pictures and should come up with the correct collaborated words.</li>
+                <li>The First person who answered the most will be awarded.</li>
+                <li>Individual participation.</li>
+                  
+            </ul>
+        
+            <a class="btn btn-hover splash-btn regis-btn" href="https://forms.gle/AxJdqSsnvojMCw5s6" target="_blank">
+              Register
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      
+    </div>
+                  
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    
+    
+    <!-- clients
+    ================================================== -->
+    <div id="clients" class="section s-clients">
+
+        <div class="row narrower s-clients__top h-text-center">
+            <div class="column">
+                <h1 class="display-1" data-aos="fade-up">
+                    Sponsors
+                </h1>
+            </div>
+        </div> <!-- s-clients__top -->
+
+
+        <!-- ========================================== -->
+
+        <div class="masonry-wrapper">
+            <div class="masonry">
+                <div class="masonry-item">
+                    <img src="img\supporters\sponsor1.jpg" alt="Dummy Image" class="masonry-content">
+                </div>
+                <div class="masonry-item">
+                    <img src="img\supporters\sponsor2.png" alt="Dummy Image" class="masonry-content">
+                </div>
+                <div class="masonry-item">
+                    <img src="img\supporters\sponsor3.jpg" alt="Dummy Image" class="masonry-content">
+                </div>
+                <div class="masonry-item">
+                    <img src="img\supporters\sponsor4.png" alt="Dummy Image" class="masonry-content">
+                </div>
+                <div class="masonry-item">
+                    <img src="img\supporters\sponsor5.jpg" alt="Dummy Image" class="masonry-content">
+                </div>
+                <div class="masonry-item">
+                    <img src="img\supporters\sponsor6.jpg" alt="Dummy Image" class="masonry-content">
+                </div>
+                <div class="masonry-item">
+                    <img src="img\supporters\sponsor7.jpg" alt="Dummy Image" class="masonry-content">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ========================================== -->
+
+        <!-- <img class="spons" src="images/spons.png" /> -->
+
+        <!-- <div class="row clients-outer">
+            <div class="column">
+                <div class="clients" data-aos="fade-up">
+                        <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/1.png" /></a>
+                        <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/2.png" /></a>
+                        <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/3.png" /></a>
+                        <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/4.png" /></a>
+                        <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/5.png" /></a>
+                        <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/6.png" /></a>                     
+                </div>
+            </div>
+        </div>-->
+
+        <div class="row narrower s-clients__top h-text-center">
+            <div class="column">
+                <h1 class="display-1" data-aos="fade-up" id="faq">
+                    F.A.Q
+                </h1>
+            </div>
+        </div> <!-- s-clients__top -->
+
+        <div class="row" id="testimonials">
+
+            <div class="column large-12">
+
+                <div id="testimonials-slider" data-aos="fade-up">
+
+                    <div id="testimonials-slider__slide">
+                        <p>
+                            <strong>What is a Nutpam 2020?</strong><br>
+                            It is a one day symposium conducted by the students of Computer Science and Engineering
+                            Department of Sri Sairam Institute of Technology.
+                        </p>
+                        <!-- <div id="testimonials-slider__author">
+                            <img src="images/avatars/user-02.jpg" alt="Author image" id="testimonials-slider__avatar">
+                            <cite id="testimonials-slider__cite">
+                                <strong>Tim Cook</strong>
+                                <span>CEO, Apple</span>
+                            </cite>
+                        </div> -->
+                    </div>
+
+                    <div id="testimonials-slider__slide">
+                        <p>
+                            <strong>Who can come?</strong> <br>
+                            Nutpam 2020 is open to any enrolled undergraduate or graduate student.
+                        </p>
+                        <!-- <div id="testimonials-slider__author">
+                            <img src="images/avatars/user-01.jpg" alt="Author image" id="testimonials-slider__avatar">
+                            <cite id="testimonials-slider__cite">
+                                <strong>Sundar Pichai</strong>
+                                <span>CEO, Google</span>
+                            </cite>
+                        </div> -->
+                    </div> <!-- end testimonials__slide -->
+
+                    <div id="testimonials-slider__slide">
+                        <p>
+                            <strong>When is the event? How does registration work?</strong> <br>
+                            The event is on October 29, 2020 and the Registration will happen through Google Forms.
+                        </p>
+                        <!-- <div id="testimonials-slider__author">
+                            <img src="images/avatars/user-04.jpg" alt="Author image" id="testimonials-slider__avatar">
+                            <cite id="testimonials-slider__cite">
+                                <strong>Satya Nadella</strong>
+                                <span>CEO, Microsoft</span>
+                            </cite>
+                        </div> -->
+                    </div> <!-- end testimonials__slide -->
+
+                    <div id="testimonials-slider__slide">
+                        <p>
+                            <strong>Have additional questions?</strong><br>
+                            Send us an email at nutpam2020@gmail.com
+                        </p>
+                        <!-- <div id="testimonials-slider__author">
+                            <img src="images/avatars/user-05.jpg" alt="Author image" id="testimonials-slider__avatar">
+                            <cite id="testimonials-slider__cite">
+                                <strong>Jeff Bezos</strong>
+                                <span>CEO, Amazon</span>
+                            </cite>
+                        </div> -->
+                    </div> <!-- end testimonials__slide -->
+
+                </div> <!-- end testimonials slider -->
+
+            </div> <!-- end column -->
+
+        </div> <!-- end row -->
+
+
+    </div> <!-- end s-clients -->
+
+
+    <!-- contact
+    ================================================== -->
+    
+
+    <section id="contact" style="padding:0 ; background-color:#14171b;margin:0;">
+
+        <div class="container">
+  
+          <div class="contact-section">
+            <h2>Contact Us</h2>
+            <p></p>
+          </div>
+  
+          <div class="row contact-info">
+  
+            <div class="col-md-4">
+              <div class="contact-address">
+                <i class="ion-ios-location-outline"></i>
+                <h3>Address</h3>
+                <address>SRI SAIRAM INSTITUTE OF TECHNOLOGY<br>Sai Leo Nagar, West Tambaram,
+                  Chennai - 600044</address>
+              </div>
+            </div>
+  
+            <div class="col-md-4">
+              <div class="contact-phone">
+                <i class="ion-ios-telephone-outline"></i>
+                <h3>Phone Number</h3>
+                <p>Dr. M ANBARASAN : <a href="tel:+918608844569">+91 86088 44569</a></p>
+                <p>Mrs. S.ANANTHI: <a href="tel:+917845786467">+91 78457 86467</a></p>
+              </div>
+            </div>
+  
+            <div class="col-md-4">
+              <div class="contact-email">
+                <i class="ion-ios-email-outline"></i>
+                <h3>Email</h3>
+                <p><a href="mailto:nutpam2020@gmail.com" target="_blank">nutpam2020@gmail.com</a></p>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer" style="background-color: #f82249;">
+        <div class="row row-y-top">
+            <div class="column large-8 medium-12">
+                <div class="row">
+                    <div class="column large-7 tab-12 s-footer__block">
+                        <h4 class="h6">Where to Find Us</h4>
+                        <p>SRI SAIRAM INSTITUTE OF TECHNOLOGY<br>
+                            Sai Leo Nagar,<br>
+                            West Tambaram,<br>
+                            Chennai - 600044<br>
+                            <strong>Phone:</strong> +91 44225 12111<br>
+                            <strong>Email:</strong> sairam@sairamit.edu.in<br>
+                        </p>
+                    </div>
+
+                    <div class="column large-5 tab-12 s-footer__block">
+                        <h4 class="h6">Department Details</h4 class="h6">
+
+
+                        <i class="fa fa-angle-right"></i> <a href="https://cse.sairamit.edu.in/"
+                            target="_blank">Home</a></li><br>
+                        <i class="fa fa-angle-right"></i> <a href="https://cse.sairamit.edu.in/department/"
+                            target="_blank">About us</a></li><br>
+                        <i class="fa fa-angle-right"></i> <a href="https://cse.sairamit.edu.in/faculty/"
+                            target="_blank">Faculty</a></li><br>
+                        <i class="fa fa-angle-right"></i> <a href="https://cse.sairamit.edu.in/news/"
+                            target="_blank">News</a></li><br>
+                        <i class="fa fa-angle-right"></i> <a href="https://cse.sairamit.edu.in/contact-us/"
+                            target="_blank">Contact Us</a></li><br>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="column large-4 medium-12 s-footer__block--end">
+                <a href="mailto:nutpam2020@gmail.com" class="btn h-full-width">Let's Talk</a>
+            </div>
+
+            <div class="ss-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top">
+                    top
+                </a>
+            </div> <!-- end ss-go-top -->
+
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
+                        title="Close (Esc)"></button> <button class="pswp__button pswp__button--share"
+                        title="Share"></button> <button class="pswp__button pswp__button--fs"
+                        title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"
+                        title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+
+
+    <div class="cursor-dot-outline"></div>
+    <div class="cursor-dot"></div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script>
+
+        var timer;
+        var compareDate = new Date('October 29, 2020 00:00:00');
+        compareDate.setDate(compareDate.getDate());
+        timer = setInterval(function () {
+            timeBetweenDates(compareDate);
+        }, 1000);
+
+        function timeBetweenDates(toDate) {
+            var dateEntered = toDate;
+            var now = new Date();
+            var difference = dateEntered.getTime() - now.getTime();
+
+            if (difference <= 0) 
+            {
+                // Timer done
+                clearInterval(timer);
+            } 
+            else 
+            {
+                var seconds = Math.floor(difference / 1000);
+                var minutes = Math.floor(seconds / 60);
+                var hours = Math.floor(minutes / 60);
+                var days = Math.floor(hours / 24);
+
+                hours %= 24;
+                minutes %= 60;
+                seconds %= 60;
+
+                $("#days").text(days);
+                $("#hours").text(hours);
+                $("#minutes").text(minutes);
+                $("#seconds").text(seconds);
+            
+          }
+        }
+    </script>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="/js/popper.min.js.download"></script>
+    <script src="/js/tippy-bundle.umd.min.js.download"></script>
+    
+    <script src="/js/jquery.slim.min.js.download"  crossorigin="anonymous"></script>
+<script src="/js/bootstrap.min.js.download"  crossorigin="anonymous" async="async"></script>
+
+<script src="/js/deadline-handler.js.download" type="text/javascript"></script>
+<script src="/js/typed-countdown.js.download" type="text/javascript"></script>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+ 
+
+
+</body>
+
+</html>
